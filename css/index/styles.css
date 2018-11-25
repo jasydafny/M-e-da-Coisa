@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Rosario', sans-serif;
+    text-shadow: 1px 1px 1px #111111;
+}
+/* header */
+
+/* Section informação */
+.detalhes{
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+
+.detalhes>div{
+    justify-content: space-around;
+}
+
+.wid-45>img{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalhes>div>p{
+    font-family: 'Black Han Sans', sans-serif;
+    margin: auto;
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 10px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.detalhes>div {
+    height: 100%;
+    border-radius: 10px;
+    width: 90%;
+    background-color: white;
+    
+}
+
+.detalhes button {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e93939;
+    color: white;
+    font-size: 16pt;
+}
+
+.informacao{
+    margin: auto;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+.informacao button {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    color: white;
+    font-size: 16pt;
+}
+.informacao>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.informacao>div:first-child>button{
+    position: absolute;
+    left: -16px;
+}
+.informacao>div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.informacao>div:last-child>button {
+    position: absolute;
+    right: -16px;
+}
+.informacao>div {
+    height: 90%;
+    border-radius: 20px;
+    width: 24%;
+    background-color: #8700a4;
+}
+
+.quad>p{
+    
+
+}
+
+.informacao>.quad {
+    height: 90%;
+    border-radius: 10px;
+    width: 24%;
+    background-color: #f36078;
+}
+
+.informacao>.qua{
+    height: 90%;
+    border-radius: 10px;
+    width: 24%;
+    background-color: #c7e100;
+}
+
+
+
+h2{
+    font-family: 'Handlee', cursive;
+    color: white;
+    text-shadow: 1px 1px 1px #e93939;
+}
+
+/* cadastro.css */
+
+/* Footer.css */
+.detalhes>div>div{
+    background-color: beige;  
+}
+
+.meuP{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    margin-top: 99px;
+    font-size: 20px;
+    background-color: beige;
+}
+
+.div-item{
+    width: 81%;
+    display: flex;
+    background: beige;
+    align-items: center;
+}
+
+.wid-45{
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    width: 50%;
+    background-color: beige;
+}
+
+.quadrado{
+        border-radius: 27px;
+        box-shadow: #f36078;;
+        padding-bottom: 41px;
+        margin-bottom: 28px;
+}
